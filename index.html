@@ -55,15 +55,23 @@
         </div>
     </header> <!-- end of row -->
 
-    <section class="row"> <!-- row starts -->
+    <section class="row"> <!-- row hero banner starts -->
       <div class="col-12">
-        <img src="https://unsplash.it/1200/600">
+        <picture id="hero">
+          <source media="(min-width: 750px)" srcset="images/hero-large_x2.jpg" />
+          <source media="(min-width: 500px)" srcset="images/hero-med640.jpg" />
+          <img src="images/hero-sm320.jpg" alt="All kinds of electronic devices that fit in a bag on a table">
+        </picture>
       </div>
-    </section><!-- row ends -->
+    </section><!-- row hero banner ends -->
 
-    <section class="row"> <!-- featured works starts -->
+    <section class="row work"> <!-- featured works starts -->
       <div class="col-4">
-          <img src="https://unsplash.it/380/250">
+          <picture id="project">
+            <source media="(min-width: 750px)" srcset="images/project1-large_x2.jpg"/>
+            <source media="(min-width: 500px)" srcset="images/project1-med640.jpg"/>
+            <img src="images/project1-sm320.jpg" alt="Hand holding a smartphone and taking picture of a wall full of graffiti">
+          </picture>
           <div class="title">
             <h3>Appify</h3>
             <p class="links"><a href="#">some link</a></p>
@@ -71,7 +79,11 @@
       </div>  
 
       <div class="col-4">
-          <img src="https://unsplash.it/380/250">
+          <picture id="project">
+            <source media="(min-width: 750px)" srcset="images/project2-large_x2.jpg"/>
+            <source media="(min-width: 500px)" srcset="images/project2-med640.jpg"/>
+            <img src="images/project2-sm320.jpg" alt="nicely designed speaker on a wooden desk">
+          </picture>
           <div class="title">
             <h3>Sunflower</h3>
             <p class="links"><a href="#">some link</a></p>
@@ -79,7 +91,11 @@
       </div>  
 
       <div class="col-4">
-          <img src="https://unsplash.it/380/250">
+          <picture id="project">
+            <source media="(min-width: 750px)" srcset="images/project3-large_x2.jpg"/>
+            <source media="(min-width: 500px)" srcset="images/project3-med640.jpg"/>
+            <img src="images/project3-sm320.jpg" alt="nicely designed speaker on a wooden desk">
+          </picture>
           <div class="title">
             <h3>Bokeh</h3>
             <p class="links"><a href="#">some link</a></p>
@@ -91,13 +107,11 @@
 
 
     <footer class="row">
-      <div class="col-12 social">
-        <p>place for social icons</p>
-        <ul>
-          <li>twitter</li>
-          <li>github</li>
-          <li>medium</li>
-        </ul>
+      <div class="social">
+        <h3>Let's connect:</h3>
+        <a href="https://twitter.com/Koszkisz" class="zocial-twitter"></a>
+        <a href="https://github.com/tomka88" class="zocial-github"></a>
+        <a href="https://angel.co/koszkisz" class="zocial-angellist"></a>
       </div><!-- end of column -->
     </footer><!-- end of row -->
   </div><!-- end of grid -->
