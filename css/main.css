@@ -2,7 +2,8 @@
   color: black;
   display: inline-block;
   font-family: 'zocial', sans-serif;
-  width: 10em;
+  width: 5em;
+  font-size: 2em;
 }
 
 * {
@@ -145,6 +146,19 @@ img {
   max-width: 100%;
 }
 
+picture#project img {
+    max-height: 33vw;
+}
+
 .work {
     border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    margin: 25px 25px 10px 25px;
+}
+
+.intro{
+    text-align: right;
+    margin-right: 25px;
 }
