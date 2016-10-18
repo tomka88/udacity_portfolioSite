@@ -1,9 +1,9 @@
 [class*="zocial-"]:before {
-  color: black;
+  color: #56B37E;
   display: inline-block;
   font-family: 'zocial', sans-serif;
-  width: 5em;
-  font-size: 2em;
+  width: 3em;
+  font-size: 28px;
 }
 
 * {
@@ -25,7 +25,7 @@
 
 .row {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1%;
     display: flex;
 }
 
@@ -91,11 +91,12 @@ body {
     width: 100vw;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 h1 {
 	font-size: 44px;
-	color: #747704
+	color: #2E3A46;
 	text-transform: uppercase;
 	margin-bottom: 0px;
 }
@@ -114,9 +115,10 @@ h2 {
 h3 {
 	font-size: 32px
 	text-transform: uppercase;
-	color: #747704;
+	color: #2E3A46;
 	text-align: center;
 	margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .links {
@@ -150,6 +152,10 @@ picture#project img {
     max-height: 33vw;
 }
 
+picture#project img:last-of-type {
+    margin-right: 0%;
+}
+
 .work {
     border-bottom: 1px solid #ddd;
 }
@@ -161,4 +167,49 @@ picture#project img {
 .intro{
     text-align: right;
     margin-right: 25px;
+}
+
+.aboutme {
+    text-align: center;
+    line-height: 1.7em;
+    padding: 0px 20px 10px 5px;
+}
+
+.aboutme p {
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 5%;
+}
+
+.connect {
+    display: block;
+}
+
+.connect img{
+    display: block;
+}
+
+.connect1 {
+    margin-top: 2%;
+}
+
+.handle {
+    height: 5vw;
+    padding-top: 5%;
+    background: whitesmoke;
+    margin: 2%;
+}
+
+.profilepic {
+    max-width: 40%;
+    padding-top: 5%;
+}
+
+.project img {
+    margin-right: 5%;
+}
+
+.footertext h4{
+    text-align: center;
+    color: #6C7A89;
 }
