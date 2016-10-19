@@ -152,8 +152,9 @@ picture#project img {
     max-height: 33vw;
 }
 
-picture#project img:last-of-type {
-    margin-right: 0%;
+.block {
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .work {
