@@ -26,17 +26,13 @@
 		width: 100%;
 	}
 
+	.profilepic {
+		max-width: 60%;
+	}
+
 	.handle {
 		width: 100%;
 		height: 25vw;
-	}
-
-	.connect1 {
-		display: block;
-	}
-
-	.connect2 {
-		display: block;
 	}
 
 	.work {
@@ -47,21 +43,101 @@
 		max-height: 100vw;
     }
 
+	.handle {
+		padding-top: 8%;
+	}
+	
+	.footertext {
+		padding: 0 5px 0 5px;
+	}
+
 	.h4 {
 		font-size: 12px;
 	}
 }
 
 @media screen and (min-width: 351px) and (max-width: 500px) {
+	.work {
+		display: block;
+		padding-left: 7%;
+	}
 
+	picture#project img {
+		max-height: 100vw;
+    }
+
+    .logo {
+		margin: 10px 10px 10px 10px;
+	}
+
+	.logo svg{
+		width:60px;
+		height: 60px; 
+	}
+
+	.intro h1{
+		font-size: 24px;
+	}
+
+	.intro p{
+		margin-top: 5px;
+	}
+
+	.col-4 {
+		width: 100%;
+	}
+
+	.aboutme{
+		display: block;
+		font-size: 16px;
+		padding-left: 5px;
+	}
+
+	.handle {
+		width: 100%;
+		height: 15vw;
+	}
 }
 
 
 @media screen and (min-width: 501px) and (max-width: 700px) {
 	
+	.aboutme{
+		display: block;
+		font-size: 16px;
+		margin-left: 5px;
+	}
+
+	.profilepic {
+		max-width: 30%;
+	}
+
+	.col-4 {
+		width: 100%;
+	}
+
+	.handle {
+		width: 100%;
+		height: 15vw;
+	}
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 701px) and (max-width: 900px) {
+	
+	[class*="zocial-"]:before {
+		font-size: 20px;
+	}
 
+	.profilepic {
+		max-width: 60%;
+	}
+
+	.connect {
+		margin-bottom: 18px;
+	}
+
+	.handle {
+		padding-top: 2%;
+	}
 }

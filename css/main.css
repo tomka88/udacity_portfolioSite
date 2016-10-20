@@ -196,14 +196,18 @@ picture#project img {
 
 .handle {
     height: 5vw;
-    padding-top: 5%;
+    padding-top: 3%;
     background: whitesmoke;
     margin: 2%;
 }
 
 .profilepic {
-    max-width: 40%;
+    max-width: 50%;
     padding-top: 5%;
+}
+
+.description {
+   padding: 0 5px 0 5px;
 }
 
 .project img {
